@@ -1,0 +1,16 @@
+pyGnuplotTemperature
+====================
+
+Snippets to visualize temperature-data collected by digitemp
+using gnuplotpy.
+
+
+
+Author: Klaus Kappel <kkappel@yahoo.de>
+
+
+Dependencies: 
+
+	MySQL
+	gnuplot
+	python 2.6

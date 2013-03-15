@@ -1,0 +1,10 @@
+syntax: glob
+*~
+*.bak
+*.pyc
+errors/*
+cache/*
+databases/*
+private/*
+sessions/*
+models/version.py
