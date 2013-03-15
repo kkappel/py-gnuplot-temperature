@@ -1,3 +1,4 @@
+# Heizung Vorlauf
 set terminal pngcairo size 1024,768
 set output 'vorlauf.png'
 set title "Heizung Vorlauf" 
@@ -6,7 +7,8 @@ set timefmt "%Y-%m-%d"
 set yrange [ 20.00000 : 70.0000 ] noreverse nowriteback
 plot 'vorlauf.tsv' using 1:3 
 
-set output 'vorlauf.png'
+# Heizung Vorlauf
+set output 'ruecklauf.png'
 set title "Heizung Rücklauf" 
 set xdata time
 set timefmt "%Y-%m-%d"
